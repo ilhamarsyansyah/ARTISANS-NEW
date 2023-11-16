@@ -1,0 +1,340 @@
+/* GENERAL */
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1344px;
+    max-width: 1344px;
+    margin: 0 auto;
+}
+
+/* BODY */
+.navbar{
+    display: flex;
+    padding: 30px 0;
+
+}
+.navbar .content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .content .navbar-group {
+    display: flex;
+    gap: 48px;
+    list-style: none;
+}
+.navbar .content .navbar-group a{
+    font-size: 20px;
+    font-size: 500;
+    color: #1F1F1F;
+    text-decoration: none;
+}
+/* header */
+.header .content{
+    display: flex;
+    flex-direction: column;
+    padding-top: 56px ;
+    gap: 64px;
+}
+.header .content .header-text{
+    display: flex;
+    justify-content: space-between;
+}
+.header .content .header-text .text-left h1{
+    color: #1F1F1F;
+    font-size: 144px;
+    font-weight: 400;
+    margin: 0;
+}
+.header .content .header-text .text-left .italic{
+    color: #1F1F1F;
+    font-size: 144px;
+    font-style: italic;
+    font-weight: 600;
+}
+.header .content .header-text .text-right{
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    width: 352px;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+/* Banner */
+.banner .content{
+    display: flex;
+    padding: 64px 48px;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner .content .content-left{
+    display: flex;
+    color: #1F1F1F;
+    font-size: 24px;
+    font-weight: 700;
+}
+.banner .content .content-left h5{
+    margin-top: 0;
+}
+.banner .content .content-right{
+    color: #1F1F1F;
+    font-size: 24px;
+    font-weight: 500;
+    width: 776px;
+    margin-top: 0;
+}
+.banner .content .content-right p{
+    margin: 0;
+}
+/* art */
+.art .content{
+    display: flex;
+    padding: 56px 48px;
+    background-color: #1F1F1F;
+    gap: 121px;
+    color: #FFF;
+}
+.art .content .left-content{
+    display: flex;
+    flex-direction: column;
+    gap: 356px;
+    width: 561px;
+}
+.art .content .left-content .art-title{
+    margin: 0;
+}
+.art .content .left-content .art-title h4{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 700;
+}
+.art .content .left-content .art-title p{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+}
+.art .content .left-content .ic-group{
+    display: flex;
+    gap: 24px;
+}
+.art .content .right-content{
+    display: flex;
+    gap: 40px;
+}
+
+/* MEET */
+.meet .content{
+    display: flex;
+    padding: 64px 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+}
+.meet .content .meet-title{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    align-items: center;
+}
+.meet .content .meet-title h1{
+    display: flex;
+    font-size: 144px;
+    font-weight: 400;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+.meet .content .meet-title .italic{
+    font-size: 144px;
+    font-weight: 600;
+    font-style: italic;
+}
+.meet .content .meet-title .body{
+    width: 650px;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+.meet .content .meet-title .body p{
+    margin: 0 auto;
+}
+.meet .content .img{
+    display: flex;
+    gap: 21px;
+}
+/* expreso-section */
+.expreso-section .content{
+    padding: 64px 48px;
+    display: flex;
+    flex-direction: column;
+    background-color: #1F1F1F;
+    color: #FFF;
+    gap: 56px;
+}
+.expreso-section .content .subtitle-section{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #FFF;
+}
+.expreso-section .content .subtitle-section h5{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+.expreso-section .content .subtitle-group{
+    display: flex;
+    flex-direction: row;
+    width: 925px;
+    justify-content: space-between;
+}
+.expreso-section .content .subtitle-group .frame{
+    display: flex;
+    justify-content: space-between;
+    width: 262px;
+}
+.expreso-section .content .img-section{
+    display: flex;
+    justify-content: space-between;
+}
+.expreso-section .content .img-left{
+    display: flex;
+    width: 776px;
+    justify-content: space-between;
+}
+.expreso-section .content .img-left h3{
+    font-size: 64px;
+    font-weight: 500;
+    margin-top: 0;
+}
+.expreso-section .content .deexpreso{
+    display: flex;
+    flex-direction: column;
+    width: 399px;
+    justify-content: space-between;
+}
+.expreso-section .content .deexpreso .frame{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.expreso-section .content .deexpreso .frame h4{
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0 0 0 0;    
+}
+.expreso-section .content .deexpreso .frame p{
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+}
+.expreso-section .content .deexpreso .ic{
+    display: flex;
+    gap: 24px;
+}
+/* Why */
+.why .content{
+    padding: 64px 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+.why .content .section {
+    display: flex;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #1F1F1F;
+
+}
+.why .content .section .content-section{
+    display: flex;
+    gap: auto;      
+}
+.why .content .section .content-section .group{
+    display: flex;
+    gap: 114px;
+}
+.why .content .section .content-section .group h3{
+    font-size: 64px;
+    font-weight: 500;
+    margin: 0;
+    color: #1F1F1F;
+}
+.why .content .section .content-section .group h4{
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+}
+.why .content .section .content-section .group p{
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+}
+.why .content .section .content-section .group .desc{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.why .content .section .content-section a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Talk */
+.talk .content{
+    display: flex;
+    flex-direction: column;
+    padding: 72px 0;
+    color: #FFF;
+    background-color: #1F1F1F;
+    align-items: center;
+    gap: 80px;
+}
+.talk .content .lets{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+.talk .content .lets p{
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+}
+.talk .content .lets h2{
+    font-size: 120px;
+    font-weight: 600;
+    font-style: italic;
+    margin: 0;
+}
+/* footer */
+.footer .content{
+    display: flex;
+    background-color: #1F1F1F;
+    color: #FFF;
+    justify-content: space-between;
+    padding: 0 44px;
+    height: 92px;
+    align-items: center;
+}
+.footer .content .copy p{
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+}
+.footer .content .footer-nav{
+    display: flex;
+    gap: 48px;
+}
+.footer .content .footer-nav p{
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+}
